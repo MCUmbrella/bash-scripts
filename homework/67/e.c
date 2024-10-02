@@ -9,8 +9,8 @@ int main(int argc, char** argv)
     if(isValidTriangle(t))
     {
         double* sl = sideLength(t);    
-        printf("%lf\n", sl[0] + sl[1] + sl[2]);
-        printf("%lf\n", area(t));
+        printf("%.2lf\n", sl[0] + sl[1] + sl[2]);
+        printf("%.2lf\n", area(t));
     }
     else puts("Impossible");
     return 0;
